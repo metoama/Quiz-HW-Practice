@@ -8,4 +8,4 @@ Deployed Application: https://metoama.github.io/Quiz-HW-Practice/
 Git Hub Repo: https://github.com/metoama/Quiz-HW-Practice
 
 # Screenshot
-![Captain-Marvel-Movie-Quiz](./Screenshot%202022-09-26%20232951.png)
+![Captain-Marvel-Movie-Quiz](./assets/Screenshot%202022-09-26%20232951.png)
