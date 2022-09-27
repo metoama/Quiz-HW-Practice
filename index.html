@@ -5,20 +5,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./style.css" />
-  <title>Window Object</title>
+  <title>Captain Marvel Movie Quiz</title>
 </head>
 
 <body>
-  <h1 style="text-align:center;">Open the Console to See the Magic ✨! </h1>
+  <div style= "text-align: center;"  > Start Quiz!</div>
+  <div style="text-align:center; display:none;"  id="quiz";></div> 
+
+  <div id="question"></div>
+ 
+  <div id="choices">
+      <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+      <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+      <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+
+
+      <div id="timer">
+        <div id="counter"></div>
+
+
+
+      <div id="scoreContainer" style="display: none"></div>
+<button onclick="startQuiz()"  id= "start" > START</button>
+
+  <!--<h1 style="text-align:center;">Open the Console to See the Magic ✨! </h1>-->
  <!-----<span style="text-align:center;" id="count">55</span> seconds
 <br>
 <button onclick="start()">
 START
 </button>---->
 
-<div id="quiz"></div>
-<button id="enter">Highscores</button>
-<div id="highscore"></div>
+
+
+
+
+
+<!---<div id="quiz"></div>
+<button style="text-align: center;" id="enter">Highscores</button>
+<div id="highscore"></div>--->
 
 
 
